@@ -1,6 +1,6 @@
 # 📦 DeepAccel: Smart ML Graph Optimizer & Compiler
 
-DeepAccel is a lightweight Python+Flask web app that allows users to upload PyTorch (`.pt`) or TensorFlow (`.pb`) models, optimize their compute graphs, and download faster, low-latency versions. Built to showcase real-world compiler techniques, this project demonstrates compute graph simplification, benchmarking, and user-centric model transformation.
+DeepAccel is a lightweight Python+Flask web app that allows users to upload PyTorch or TensorFlow models, optimize their compute graphs, and download faster, low-latency versions. Built to showcase real-world compiler techniques, this project demonstrates compute graph simplification, benchmarking, and user-centric model transformation.
 
 ---
 
