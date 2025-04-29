@@ -9,6 +9,7 @@ DeepAccel is a lightweight Python+Flask web app that allows users to upload PyTo
 - Flask
 - PyTorch
 - TensorFlow
+- CSS
 - HTML
 
 ## 🌟 Key Features
