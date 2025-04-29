@@ -4,6 +4,13 @@ DeepAccel is a lightweight Python+Flask web app that allows users to upload PyTo
 
 ---
 
+## 👩‍💻 Tech Stack used to build DeepAccel
+- Python 3.10
+- Flask
+- PyTorch
+- TensorFlow
+- Jinja2 (for HTML templates)
+
 ## 🌟 Key Features
 
 ✅ Upload ML models (.pt or .pb) via web UI  
@@ -29,61 +36,5 @@ DeepAccel is a lightweight Python+Flask web app that allows users to upload PyTo
    - Optimizes the model
    - Benchmarks speedup
    - Lets you download the optimized version
-
----
-
-## ☁️ Deploy on GitHub + Render (Live Hosting)
-
-### Step 1: Push Project to GitHub
-```bash
-git init
-git add .
-git commit -m "Initial DeepAccel Commit"
-git branch -M main
-git remote add origin https://github.com/yourusername/DeepAccel.git
-git push -u origin main
-```
-
-### Step 2: Deploy to [Render.com](https://render.com)
-1. Sign in to [render.com](https://render.com)
-2. Click **"New +" ➝ Web Service**
-3. Connect your **GitHub repo**
-4. Choose:
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `python app.py`
-5. Set **Python version** in Render environment to `3.10`
-6. Click **Deploy**
-
-✅ In ~1 min, your DeepAccel app will be live with a public URL!
-
----
-
-## 🧪 Sample Files to Test
-- PyTorch `.pt`: [Download here](https://github.com/pytorch/examples/blob/main/mnist/model.pt?raw=true)
-- TensorFlow `.pb`: [Download here](https://storage.googleapis.com/download.tensorflow.org/models/tflite_11_05_08/mobilenet_v2_1.0_224_savedmodel.zip)
-
----
-
-## 👩‍💻 Built With
-- Python 3.10
-- Flask
-- PyTorch
-- TensorFlow
-- Jinja2 (for HTML templates)
-
----
-
-## 📄 License
-MIT License. Fork freely and contribute!
-
----
-
-## ✨ Contribute
-Pull requests are welcome! For major changes, open an issue first.
-
----
-
-## 🙌 Acknowledgments
-This project was built to demonstrate ML compiler techniques in a beginner-friendly web app.
 
 ---
