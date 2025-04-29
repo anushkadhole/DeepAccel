@@ -12,6 +12,9 @@ DeepAccel is a lightweight Python+Flask web app that allows users to upload PyTo
 - CSS
 - HTML
 
+![Screenshot (394)](https://github.com/user-attachments/assets/1763d26c-4daf-47a8-ae43-8b082c97d2d9)
+
+
 ## 🌟 Key Features
 
 ✅ Upload ML models (.pt or .pb) via web UI  
