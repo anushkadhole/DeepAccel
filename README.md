@@ -40,5 +40,3 @@ DeepAccel is a lightweight Python+Flask web app that allows users to upload PyTo
    - Optimizes the model
    - Benchmarks speedup
    - Lets you download the optimized version
-
----
